@@ -1,0 +1,63 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 5%);
+  }
+
+  .button {
+    
+    background-color: #3A434F;
+    border-style: groove;
+    border-width: 1px;
+    border-color:  #B8BDE5;
+  }
+  .tax {
+      background-color: #6DD667;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 2;
+    grid-row: 1 ;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .seven {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .eight {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .nine {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .coma {
+      grid-column: 1;
+      grid-row: 4;
+  }
+  .zero {
+      grid-column: 2;
+      grid-row: 4;
+  }
+.del {
+    grid-column: 3;
+    grid-row: 4;
+}
